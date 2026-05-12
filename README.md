@@ -1,57 +1,83 @@
 # Employee Attrition Prediction in Healthcare UK
 
-## Overview
-This project uses Machine Learning techniques to predict employee attrition in the healthcare sector.
+## Project Overview
 
-The system analyzes employee-related factors such as:
+This project uses Machine Learning techniques to predict employee attrition in the healthcare sector in the United Kingdom.
+
+The objective is to identify employees who are likely to leave the organization based on factors such as:
+
 - Age
 - Salary
 - Overtime
 - Job Role
 - Work-Life Balance
 - Years at Company
+- Distance from Home
 
-to predict whether an employee is likely to leave the organization.
-
----
-
-## Objectives
-- Perform exploratory data analysis
-- Build predictive ML models
-- Compare classification algorithms
-- Identify key attrition factors
-- Improve HR decision-making
+The project helps HR departments improve employee retention strategies using data-driven insights.
 
 ---
 
-## Technologies Used
+# Problem Statement
+
+Employee attrition is a major challenge in the healthcare industry due to workforce shortages, burnout, and operational pressure.
+
+This project aims to build predictive machine learning models that can identify attrition risks early and support HR decision-making.
+
+---
+
+# Technologies Used
+
 - Python
 - Pandas
 - NumPy
-- Scikit-learn
 - Matplotlib
 - Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
 ---
 
-## Machine Learning Models
+# Machine Learning Models Used
+
 - Logistic Regression
 - Decision Tree
 - Random Forest
-- SVM
-- KNN
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors (KNN)
 - Gaussian Naive Bayes
 
 ---
 
-## Future Improvements
-- XGBoost integration
-- SHAP Explainability
-- Streamlit deployment
-- Hyperparameter tuning
-- Power BI dashboard
+# Project Structure
+
+employee-attrition-healthcare-ml/
+│
+├── app/
+├── data/
+├── images/
+├── models/
+├── notebooks/
+├── reports/
+├── src/
+├── README.md
+├── requirements.txt
+└── .gitignore
 
 ---
 
-## Author
+# Future Improvements
+
+- Add XGBoost model
+- Implement SHAP explainability
+- Hyperparameter tuning
+- Streamlit deployment
+- Power BI dashboard integration
+
+---
+
+# Author
+
 Sooraj Subramanian
+
+MSc Data Science | MBA IT Management
